@@ -11,7 +11,7 @@ export default function App() {
         SetPeople(data);
         SetShow(true);
       });
-    });
+    }).catch((err) => alert("Inicialize API para poder ver os registros de pessoas"));
   };
 
   return (

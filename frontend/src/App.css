@@ -21,6 +21,7 @@ button{
   border-radius: 5px;
   color: #000;
   font-weight: bold;
+  cursor: pointer;
 }
 #table *{
   border: 1px solid #000;
